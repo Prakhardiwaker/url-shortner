@@ -1,3 +1,4 @@
+
 # 🔗 URL Shortener (MERN Stack)
 
 A sleek, modern, and mobile-friendly URL Shortener built using the MERN stack. Create short links, share them instantly, and manage them with ease.
@@ -24,95 +25,111 @@ A sleek, modern, and mobile-friendly URL Shortener built using the MERN stack. C
  ┣ 📄 README.md        # You're here!
  ┣ 📄 .env             # Environment variables
  ┣ 📄 package.json     # Root config (if monorepo)
-
-
-----
 ```
-⚙️ Tech Stack
-Frontend:
 
-  React 19 + Vite
-  
-  Redux Toolkit
-  
-  React Query
-  
-  Tailwind CSS
-  
-  Axios
-  
-  ESLint
+---
 
-Backend:
+## ⚙️ Tech Stack
 
-  Express 5
-  
-  MongoDB + Mongoose
-  
-  nanoid for unique short IDs
-  
-  JWT for authentication
-  
-  Bcrypt for password hashing
-  
-  dotenv & cookie-parser
+**Frontend**:
+- React 19 + Vite
+- Redux Toolkit
+- React Query
+- Tailwind CSS
+- Axios
+- ESLint
 
-````
+**Backend**:
+- Express 5
+- MongoDB + Mongoose
+- nanoid for unique short IDs
+- JWT for authentication
+- Bcrypt for password hashing
+- dotenv & cookie-parser
 
-----
+---
 
+## 🧑‍💻 Getting Started
 
-🧑‍💻 Getting Started
+### Prerequisites
 
-Prerequisites
-  Node.js >= 18
-  MongoDB running locally or cloud (e.g., MongoDB Atlas)
+- Node.js >= 18
+- MongoDB running locally or cloud (e.g., MongoDB Atlas)
 
-1. Clone the repository
-````
-bash
+### 1. Clone the repository
+
+```bash
 git clone https://github.com/your-username/url-shortener.git
 cd url-shortener
-
 ```
 
-2. Setup Backend
-```
-bash
+---
+
+### 2. Setup Backend
+
+```bash
 cd backend
 npm install
 ```
-----
-Create a .env file inside backend/:
 
-```
-env
+Create a `.env` file inside `backend/`:
+
+```env
 PORT=5000
 MONGO_URI=your_mongodb_connection_string
 JWT_SECRET=your_jwt_secret
-
 ```
 
-----
 Start the backend server:
-```
-bash
+
+```bash
 npm run dev
 ```
 
-----
-3. Setup Frontend
-```
-bash
+---
+
+### 3. Setup Frontend
+
+```bash
 cd ../frontend
 npm install
 npm run dev
 ```
-The app will be running at: http://localhost:5173
 
+The app will be running at: [http://localhost:5173](http://localhost:5173)
 
-----
-🤝 Contributing
+---
+
+## 🧪 Example Usage
+
+1. Register or login to your account.
+2. Paste any long URL and click "Shorten".
+3. Copy and share the shortened URL.
+4. (Optional) Track analytics and manage links.
+
+---
+
+## 📷 Screenshots
+
+> Available in the public folder in root directory.
+
+---
+
+## 🤝 Contributing
+
 Contributions are welcome! Please fork the repo and submit a pull request.
-----
 
+---
+
+## 📄 License
+
+This project is licensed under the ISC License.
+
+---
+
+## 🙌 Acknowledgements
+
+- [NanoID](https://github.com/ai/nanoid)
+- [Tailwind CSS](https://tailwindcss.com/)
+- [MongoDB](https://www.mongodb.com/)
+- [Vite](https://vitejs.dev/)
